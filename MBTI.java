@@ -50,61 +50,61 @@ public class MBTI{
         }
        System.out.println(answers);
 
-       for(int number = 0; number < questions.length; number++){
-            getExrovertedVsIntroverted(answers);
-            getSensingVsIntuitive(answers);
-            getThinkingVsFeeling(answer);
-            getjudgingVsPercetive(answer);
-       }
+//       for(int number = 0; number < questions.length; number++){
+//            getExrovertedVsIntroverted(answers);
+//            getSensingVsIntuitive(answers);
+//            getThinkingVsFeeling(answer);
+//            getjudgingVsPercetive(answer);
+//       }
     }
 
 
-    public static char[]  getExrovertedVsIntroverted(char[] answers){
-        int count = 0;
-        char[] storeEI = new char[5];
-        for(int number = 0; number < 20; number++){
-             if(number == 0 || number == 4 || number == 8 || number == 12 || number == 16 ){
-                storeEI[count] = answers;
-                count++;
-            }          
-        }
-        return storeEI;
-    }   
-
-    public static char[]  getSensingVsIntuitive(char[] answers){
-        int count = 0;
-        char[] storeSI = new char[5];
-        for(int number = 0; number < 20; number++){        
-             if(number == 1 || number == 5 || number == 9 || number == 13 || number == 17 ){
-                storeSI[count] = answers;
-                count++;
-            }
-        }
-        return storeSI;
-    }   
-    
-    public static char[]  getThinkingVsFeeling(char[] answer){
-        int count = 0;
-        char[] storeTF = new char[5];
-        for(int number = 0; number < 20; number++){
-             if(number == 2 || number == 6 || number == 10 || number == 14 || number == 18 ){
-                storeTF[count] = answers;
-                count++;
-            }
-        }
-        return storeTF;
-    }   
-
-    public static char[]  getjudgingVsPerceptive(char[] answer){
-        int count = 0;
-        char[] storeJP = new char[5];
-        for(int number = 0; number < 20; number++){
-             if(number == 3 || number == 7 || number == 11 || number == 15 || number == 19 ){
-                storeJP[count] = answers;
-                count++;
-            }
-        }
-        return storeJP;
-    }   
+//    public static char[]  getExrovertedVsIntroverted(char[] answers){
+//        int count = 0;
+//        char[] storeEI = new char[5];
+//        for(int number = 0; number < 20; number++){
+//             if(number == 0 || number == 4 || number == 8 || number == 12 || number == 16 ){
+//                storeEI[count] = answers;
+//                count++;
+//            }          
+//        }
+//        return storeEI;
+//    }   
+//
+//    public static char[]  getSensingVsIntuitive(char[] answers){
+//        int count = 0;
+//        char[] storeSI = new char[5];
+//        for(int number = 0; number < 20; number++){        
+//             if(number == 1 || number == 5 || number == 9 || number == 13 || number == 17 ){
+//                storeSI[count] = answers;
+//                count++;
+//            }
+//        }
+//        return storeSI;
+//    }   
+//    
+//    public static char[]  getThinkingVsFeeling(char[] answer){
+//        int count = 0;
+//        char[] storeTF = new char[5];
+//        for(int number = 0; number < 20; number++){
+//             if(number == 2 || number == 6 || number == 10 || number == 14 || number == 18 ){
+//                storeTF[count] = answers;
+//                count++;
+//            }
+//        }
+//        return storeTF;
+//    }   
+//
+//    public static char[]  getjudgingVsPerceptive(char[] answer){
+//        int count = 0;
+//        char[] storeJP = new char[5];
+//        for(int number = 0; number < 20; number++){
+//             if(number == 3 || number == 7 || number == 11 || number == 15 || number == 19 ){
+//                storeJP[count] = answers;
+//                count++;
+//            }
+//        }
+//        return storeJP;
+//    }   
 
 }
